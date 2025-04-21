@@ -1,0 +1,145 @@
+:root {
+  --background: hsl(222, 26%, 31%);
+  --teclas: hsl(223, 31%, 20%);
+  --tecla: hsl(30, 25%, 89%);
+  --valor: hsl(224, 36%, 15%);
+  --del: hsl(225, 21%, 49%);
+  --reset: hsl(225, 21%, 49%);
+  --igual: hsl(6, 70%, 34%);
+  user-select: none;
+}
+
+[data-theme="1"] {
+  --background: hsl(222, 26%, 31%);
+  --teclas: hsl(223, 31%, 20%);
+  --tecla: hsl(30, 25%, 89%);
+  --valor: hsl(224, 36%, 15%);
+  --del: hsl(225, 21%, 49%);
+  --reset: hsl(225, 21%, 49%);
+  --igual: hsl(6, 70%, 34%);
+}
+
+[data-theme="2"] {
+  --background: hsl(0, 0%, 90%);
+  --teclas: hsl(0, 5%, 81%);
+  --tecla: hsl(45, 7%, 89%);
+  --valor: hsl(0, 0%, 93%);
+  --del: hsl(185, 42%, 37%);
+  --reset: hsl(185, 42%, 37%);
+  --igual: hsl(6, 70%, 34%);
+}
+
+[data-theme="3"] {
+  --background: hsl(268, 75%, 9%);
+  --teclas: hsl(268, 71%, 12%);
+  --tecla: hsl(268, 47%, 21%);
+  --valor: hsl(268, 71%, 12%);
+  --del: hsl(281, 89%, 26%);
+  --reset: hsl(281, 89%, 26%);
+  --igual: hsl(177, 92%, 70%);
+}
+
+.background {
+  display: flex;
+  position: absolute;
+  width: 40vw;
+  height: 82%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background);
+  align-items: center;
+  justify-content: center;
+  border-radius: 1vw;
+}
+
+.valor {
+  display: flex;
+  position: absolute;
+  width: 24.688vw;
+  height: 4.167vw;
+  border-radius: 0.521vw;
+  top: 3vw;
+  background-color: var(--valor);
+  align-items: center;
+  justify-content: right;
+  padding: 2vw;
+  font-size: 2.083vw;
+  color: hsl(0, 0%, 100%);
+}
+
+.teclas {
+  display: flex;
+  position: absolute;
+  width: 28.646vw;
+  height: 26.042vw;
+  border-radius: 0.027vw;
+  top: 12vw;
+  background-color: var(--teclas);
+  align-items: center;
+  justify-content: center;
+}
+
+.tecladin {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 28.646vw;
+  height: 20.833vw;
+  top: 1vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.tecla {
+  display: flex;
+  position: relative;
+  width: 5.208vw;
+  height: 3.646vw;
+  background-color: var(--tecla);
+  align-items: center;
+  justify-content: center;
+  margin: 0.781vw;
+  font-size: 1.042vw;
+}
+
+.botoes {
+  display: flex;
+  position: absolute;
+  width: 28.646vw;
+  height: 4.167vw;
+  bottom: .5vw;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    width: 41%;
+    height: 3.646vw;
+    margin: 4%;
+  }
+}
+
+.tema {
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.781vw;
+  color: #fff;
+  top: 1vw;
+  right: 12vw;
+}
+
+.tipo {
+  position: absolute;
+  width: 5vw;
+  height: 1.5vw;
+  top: 1vw;
+  right: 5.5vw;
+  border-radius: 0.521vw;
+  background-color: rgb(37, 21, 21);
+
+  img {
+    width: 1.5vw;
+  }
+}
