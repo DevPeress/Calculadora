@@ -41,7 +41,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 4. 
 
    ```markdown
-   4. Abra o navegador e acesse: [http://localhost:5173](http://localhost:5173)
+   Abra o navegador e acesse: [http://localhost:5173](http://localhost:5173)
    ```
 
 ## 🎨 Como Alterar o Tema de Cores
