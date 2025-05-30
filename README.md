@@ -38,10 +38,10 @@ Para rodar o projeto localmente, siga os passos abaixo:
    ```bash
    npm run dev
    ```
-4. 
+4. Abra o navegador e acesse: 
 
    ```markdown
-   Abra o navegador e acesse: [http://localhost:5173](http://localhost:5173)
+   [http://localhost:5173](http://localhost:5173)
    ```
 
 ## 🎨 Como Alterar o Tema de Cores
